@@ -16,6 +16,14 @@ public class Kingdom
       population = p;
    }
 
+   public String getName() {
+      return name;
+   }
+
+   public int getPop() {
+      return population;
+   }
+
    public String toString()
    {
       String output = "";

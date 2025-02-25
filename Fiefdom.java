@@ -8,6 +8,10 @@ public class Fiefdom extends Kingdom
       numLords = x;
    }
 
+   public int getNumLords() {
+      return numLords;
+   }
+
    public String toString()
    {
       return super.toString() + "\t\t Number of Lords: " + numLords; 
